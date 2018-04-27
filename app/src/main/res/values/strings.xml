@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Single Screen App</string>
+    <string name="quote">adopt a pet</string>
+    <string name="business_Name">Houston Humane Society</string>
+    <string name="business_description">Animal protection organization in \nHarris County, Texas</string>
+    <string name="business_address">14700 Almeda Rd, Houston, TX 77053</string>
+    <string name="business_hour">Tuesday to Friday:  11am to 6pm</string>
+    <string name="business_phone">(713) 433-6421</string>
+    <string name="phone">phone</string>
+    <string name="business_web">http://www.houstonhumane.org</string>
+
+</resources>

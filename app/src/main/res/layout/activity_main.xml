@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height"
+        android:scaleType="fitXY"
+        android:src="@drawable/puppy" />
+
+    <TextView
+        style="@style/business_title"
+        android:text="@string/quote" />
+
+
+    <TextView
+        style="@style/business_name"
+        android:text="@string/business_Name" />
+
+    <View
+        style="@style/Divider"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        style="@style/business_description"
+        android:text="@string/business_description"/>
+
+    <View
+        style="@style/Divider"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        style="@style/business_address"
+        android:autoLink="map"
+        android:textSize="@dimen/text_size_4"
+        android:text="@string/business_address"/>
+
+    <TextView
+        style="@style/business_time"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/text_size_4"
+        android:text="@string/business_hour"/>
+
+    <TextView
+        style="@style/business_phone"
+        android:autoLink="phone"
+        android:textSize="@dimen/text_size_4"
+        android:text="@string/business_phone"/>
+
+    <TextView
+        style="@style/business_web"
+        android:autoLink="web"
+        android:textSize="@dimen/text_size_4"
+        android:text="@string/business_web"/>
+
+</LinearLayout>

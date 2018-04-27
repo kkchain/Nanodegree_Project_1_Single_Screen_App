@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //layoutMargin
+    <dimen name="layout_top_1">10dp</dimen>
+    <dimen name="layout_top_2">5dp</dimen>
+    <dimen name="layout_top_3">20dp</dimen>
+    <dimen name="layout_left_1">16dp</dimen>
+    <dimen name="layout_bottom_1">10dp</dimen>
+    <dimen name="layout_bottom_2">5dp</dimen>
+    <dimen name="layout_margin_top">10dp</dimen>
+
+    //layout
+    <dimen name="layout_height">200dp</dimen>
+
+    //padding
+    <dimen name="padding">20dp</dimen>
+    <dimen name="padding_left">20dp</dimen>
+
+    //textSize
+    <dimen name="text_size_1">30sp</dimen>
+    <dimen name="text_size_2">22sp</dimen>
+    <dimen name="text_size_3">16sp</dimen>
+    <dimen name="text_size_4">18sp</dimen>
+
+</resources>

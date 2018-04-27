@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="business_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size_1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/layout_top_1</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="business_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size_2</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/layout_top_1</item>
+        <item name="android:layout_marginBottom">@dimen/layout_bottom_1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="business_description">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size_3</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/layout_top_2</item>
+        <item name="android:layout_marginBottom">@dimen/layout_bottom_2</item>
+    </style>
+
+
+    <style name="business_address">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_directions_black_24dp</item>
+        <item name="android:drawablePadding">@dimen/padding</item>
+        <item name="android:layout_marginTop">@dimen/layout_top_3</item>
+        <item name="android:layout_marginLeft">@dimen/layout_left_1</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="business_time">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_access_time_black_24dp</item>
+        <item name="android:drawablePadding">@dimen/padding</item>
+        <item name="android:layout_marginTop">@dimen/layout_top_1</item>
+        <item name="android:layout_marginLeft">@dimen/layout_left_1</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="business_phone">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_phone_black_24dp</item>
+        <item name="android:drawablePadding">@dimen/padding</item>
+        <item name="android:layout_marginTop">@dimen/layout_top_1</item>
+        <item name="android:layout_marginLeft">@dimen/layout_left_1</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="business_web">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_web_black_24dp</item>
+        <item name="android:drawablePadding">@dimen/padding</item>
+        <item name="android:layout_marginTop">@dimen/layout_top_1</item>
+        <item name="android:layout_marginLeft">@dimen/layout_left_1</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+
+</resources>
